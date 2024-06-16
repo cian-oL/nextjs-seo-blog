@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="flex items-center justify-between w-full p-4 px-10 ">
       <Logo />
-      <nav className="fixed top-6 right-1/2 translate-x-1/2 flex items-center w-max py-3 px-8 border border-solid border-dark rounded-full font-medium">
+      <nav className="fixed top-6 right-1/2 translate-x-1/2 flex items-center w-max py-3 px-8 border border-solid border-dark rounded-full font-medium bg-light/80 backdrop-blur-sm">
         <Link href="/" className="mr-2">
           Home
         </Link>
