@@ -20,16 +20,16 @@ const Header = () => {
       </nav>
       <div className="flex">
         <a href="https://example.com" className="w-6 h-6 mr-4">
-          <LinkedInIcon />
+          <LinkedInIcon className="hover:scale-125 transition-all ease duration-200" />
         </a>
         <a href="https://example.com" className="w-6 h-6 mr-4">
-          <TwitterIcon />
+          <TwitterIcon className="hover:scale-125 transition-all ease duration-200" />
         </a>
         <a href="https://example.com" className="w-6 h-6 mr-4">
-          <GithubIcon />
+          <GithubIcon className="hover:scale-125 transition-all ease duration-200" />
         </a>
         <a href="https://example.com" className="w-6 h-6 mr-4">
-          <DribbleIcon />
+          <DribbleIcon className="hover:scale-125 transition-all ease duration-200" />
         </a>
       </div>
     </header>
