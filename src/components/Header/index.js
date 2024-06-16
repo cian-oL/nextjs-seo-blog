@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Logo from "./Logo";
+import { DribbleIcon, GithubIcon, LinkedInIcon, TwitterIcon } from "../icons";
 
 const Header = () => {
   return (
@@ -17,7 +18,20 @@ const Header = () => {
         </Link>
         <button>T</button>
       </nav>
-      <div>social links</div>
+      <div className="flex">
+        <a href="https://example.com" className="w-6 h-6 mr-4">
+          <LinkedInIcon />
+        </a>
+        <a href="https://example.com" className="w-6 h-6 mr-4">
+          <TwitterIcon />
+        </a>
+        <a href="https://example.com" className="w-6 h-6 mr-4">
+          <GithubIcon />
+        </a>
+        <a href="https://example.com" className="w-6 h-6 mr-4">
+          <DribbleIcon />
+        </a>
+      </div>
     </header>
   );
 };
